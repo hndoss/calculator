@@ -16,7 +16,7 @@
       <br>
     </form>
 
-    <button>Registrar</button>
+    <button @click="ejemplo" >Registrar</button>
   </div>
 </template>
 
@@ -25,6 +25,11 @@
 export default {
   name: 'App',
   components: {
+  },
+  method: {
+    ejemplo(){
+      console.log("Se ha hecho click en el boton")
+    }
   }
 }
 </script>
