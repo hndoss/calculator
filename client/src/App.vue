@@ -26,9 +26,9 @@ export default {
   name: 'App',
   components: {
   },
-  method: {
-    ejemplo(){
-      console.log("Se ha hecho click en el boton")
+  methods: {
+    async ejemplo(){
+      alert("Se ha hecho click en el boton")
     }
   }
 }
